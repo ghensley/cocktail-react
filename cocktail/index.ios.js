@@ -8,7 +8,8 @@ import {
   TouchableHighlight,
   Text,
   Modal,
-  View
+  View,
+  Button
 } from 'react-native';
 
 export default class cocktail extends Component {
@@ -50,24 +51,24 @@ export default class cocktail extends Component {
           visible={this.state.modalVisible}
           onRequestClose={() => {alert("Modal has been closed.")}}
           >
-         <View style={{marginTop: 22}}>
+         <View style={modalStyles.content}>
           <View>
-            <Text>{this.state.modalData.name}</Text>
-            <Text>{this.state.modalData.description}</Text>
-            <Text>{this.state.modalData.preperation}</Text>
-            <ListView
-            dataSource={this.state.ingredientSource}
-            renderRow={(rowData) => 
-                <Text>{rowData.name} - {rowData.amount}</Text>
-            }
-            />
+            <Text style={modalStyles.name}>{this.state.modalData.name}</Text>
+            <Text style={modalStyles.description}>{this.state.modalData.description}</Text>
+            <View style = {modalStyles.ingredients}>
+              <ListView
+                dataSource={this.state.ingredientSource}
+                renderRow={(rowData) => 
+                    <Text>{rowData.name} - {rowData.amount}</Text>
+                }
+              />
+            </View>
+            <Text style={modalStyles.preperation}>{this.state.modalData.preperation}</Text>
 
 
-            <TouchableHighlight onPress={() => {
-              this.setState({modalVisible: false})
-            }}>
-              <Text>Hide Modal</Text>
-            </TouchableHighlight>
+            <Button title="Done" onPress={() => {
+              this.setState({modalVisible: false})}
+            }/>
 
           </View>
          </View>
@@ -76,6 +77,34 @@ export default class cocktail extends Component {
     );
   }
 }
+
+const modalStyles = StyleSheet.create({
+  content: {
+    marginTop: 22,
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  name: {
+    fontSize: 20,
+    textAlign: 'center',
+    padding: 2,
+  },
+  description: {
+    fontSize: 13,
+    textAlign: 'center',
+    fontStyle: 'italic'
+  },
+  preperation: {
+    fontSize: 15,
+    padding: 12
+  },
+  ingredients: {
+    height: 80,
+    padding: 12
+  }
+})
 
 const styles = StyleSheet.create({
   container: {
