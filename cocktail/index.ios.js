@@ -1,6 +1,7 @@
 "use strict";
 
 import React, { Component } from 'react';
+import { createStore } from 'redux'
 import {
   AppRegistry,
   ListView,
@@ -13,17 +14,38 @@ import {
 } from 'react-native';
 
 export default class cocktail extends Component {
+
+  onHand(state = [], action) {
+    state = state
+    switch (action.type) {
+      case 'ADD':
+        state.push(action.ingredient)
+        return state;
+      case 'REMOVE':
+        var index = state.indexOf(action.ingredient);
+        if (index > -1) {
+          state.splice(index, 1)
+        }
+        return state
+      default:
+        return state
+    }
+  }
   
   constructor(props) {
-    var cocktails = require('./cocktails.json');
     super(props);
+    var cocktails = require('./cocktails.json');
     const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     this.state = {
       dataSource: ds.cloneWithRows(cocktails),
       ingredientSource: ds.cloneWithRows({}),
       modalVisible: false,
       modalData: {},
+      store: createStore(this.onHand)
     };
+    this.state.store.subscribe(() =>
+      console.log(this.state.store.getState())
+    )
   }
   render() {
     return (
@@ -32,10 +54,10 @@ export default class cocktail extends Component {
           contentContainerStyle={styles.list}
           dataSource={this.state.dataSource}
           renderRow={(rowData) => 
-            //<TouchableHighlight onPress = {()=> {this.setState({modalData: rowData, modalVisible: true})}} style={styles.item}>
             <TouchableHighlight onPress = {()=> {    
                 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
                 this.setState({modalData: rowData,modalVisible:true,ingredientSource:ds.cloneWithRows(rowData.ingredients)})
+                this.state.store.dispatch({ type: 'ADD', ingredient: 'Butter' })
               }}
               style={styles.item}>
               <View>
