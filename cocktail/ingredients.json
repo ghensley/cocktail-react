@@ -1,1 +1,20 @@
-[{"_id":"589edd6585a873173254aba6","name":"Whiskey","have":true,"__v":0,"popularity":95},{"_id":"589edd6885a873173254aba7","name":"Gin","have":true,"__v":0,"popularity":88},{"_id":"589edd7f85a873173254aba8","name":"Sweet Vermouth","have":true,"__v":0,"popularity":75},{"_id":"589edd8b85a873173254aba9","name":"Triple Sec","have":true,"__v":0,"popularity":75},{"_id":"589eddb085a873173254abaa","name":"Cranberry Juice","have":true,"__v":0,"popularity":65},{"_id":"589eec7534a21f1d7a543fba","name":"Coffee Liqueur","have":true,"__v":0,"popularity":60},{"_id":"589eec8c34a21f1d7a543fbb","name":"Amaretto","have":true,"__v":0,"popularity":50},{"_id":"589eec9c34a21f1d7a543fbc","name":"Dry Vermouth","have":true,"__v":0,"popularity":70},{"_id":"589eeca934a21f1d7a543fbd","name":"Orange Juice","have":true,"__v":0,"popularity":60},{"_id":"589eecb034a21f1d7a543fbe","name":"Grenadine","have":true,"__v":0,"popularity":50},{"_id":"589ef27d34a21f1d7a543fbf","name":"Campari","have":true,"__v":0,"popularity":80},{"_id":"58a0ddc80a6ba07e8f1b148c","name":"Tequila","have":true,"__v":0,"popularity":80},{"_id":"58a0e51c2bae9881b1388199","name":"Lime Juice","have":true,"__v":0,"popularity":70},{"_id":"58a0e5262bae9881b138819a","name":"Lemon Juice","have":true,"__v":0,"popularity":70},{"_id":"58a0e52e2bae9881b138819b","name":"Rum","have":true,"__v":0,"popularity":80},{"_id":"58a0e5582bae9881b138819c","name":"Simple Syrup","have":true,"__v":0,"popularity":70},{"_id":"58a14384596aaa8dd1a1eb0b","name":"Bitters","have":true,"__v":0,"popularity":70},{"_id":"58a1635330d5c19b80397ba6","name":"Vodka","have":true,"__v":0,"popularity":90}]
+[
+	{"name":"Whiskey","have":true,"popularity":95},
+	{"name":"Gin","have":true,"popularity":88},
+	{"name":"Sweet Vermouth","have":true,"popularity":75},
+	{"name":"Triple Sec","have":true,"popularity":75},
+	{"name":"Cranberry Juice","have":true, "popularity":65},
+	{"name":"Coffee Liqueur","have":true,"popularity":60},
+	{"name":"Amaretto","have":true,"popularity":50},
+	{"name":"Dry Vermouth","have":true,"popularity":70},
+	{"name":"Orange Juice","have":true,"popularity":60},
+	{"name":"Grenadine","have":true,"popularity":50},
+	{"name":"Campari","have":true,"popularity":80},
+	{"name":"Tequila","have":true,"popularity":80},
+	{"name":"Lime Juice","have":true,"popularity":70},
+	{"name":"Lemon Juice","have":true,"popularity":70},
+	{"name":"Rum","have":true,"popularity":80},
+	{"name":"Simple Syrup","have":true,"popularity":70},
+	{"name":"Bitters","have":true,"popularity":70},
+	{"name":"Vodka","have":true,"popularity":90}
+]

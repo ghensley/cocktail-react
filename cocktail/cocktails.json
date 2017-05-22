@@ -1,1 +1,262 @@
-[{"_id":"58a0cb6de507dd155b586ce6","name":"Jenna","description":"Mostly Whiskey","preperation":"Pour it in a glass","ingredients":[{"name":"Whiskey","amount":"2 oz"}]},{"_id":"58a0da28e507dd155b586ce8","name":"Negroni","description":"Harsh. Classic.","preperation":"Mix in equal part. Garnish with orange peel.","ingredients":[{"name":"Gin","amount":"1 oz"},{"name":"Sweet Vermouth","amount":"1 oz"},{"name":"Campari","amount":"1 oz"}]},{"_id":"58a0dd29e507dd155b586ce9","name":"Martini","description":"Strong and classy","preperation":"Stir with ice in mixing glass. Strain into cocktail glass. Serve with olive","ingredients":[{"name":"Gin","amount":"2 oz"},{"name":"Dry Vermouth","amount":"1/3 oz"}]},{"_id":"58a0dd81e507dd155b586cea","name":"Boulevardier","description":"The masochists Negroni","preperation":"Mix in equal part. Garnish with orange peel.","ingredients":[{"name":"Whiskey","amount":"1 oz"},{"name":"Sweet Vermouth","amount":"1 oz"},{"name":"Campari","amount":"1 oz"}]},{"_id":"58a0dea8e507dd155b586ceb","name":"Screwdriver","description":"For breakfasts and beaches","preperation":"Lots of ice and stir well","ingredients":[{"name":"Vodka","amount":"2 oz"},{"name":"Orange Juice","amount":"3 oz"}]},{"_id":"58a0e6ffe507dd155b586cec","name":"Daiquiri","description":"For hot days","preperation":"Shake hard and strain","ingredients":[{"name":"Rum","amount":"3 oz"},{"name":"Lime Juice","amount":"2 oz"},{"name":"Simple Syrup","amount":"1 oz"}]},{"_id":"58a0e79de507dd155b586ced","name":"Margarita","description":"For forgettable nights","preperation":"No straining, and salt the glass","ingredients":[{"name":"Tequila","amount":"2 oz"},{"name":"Triple Sec","amount":"1 oz"},{"name":"Lime Juice","amount":"1 oz"}]},{"_id":"58a142d7dd784e530155c9ca","name":"Kamikaze","description":"Japanese word for 'Divine Wind'","preperation":"Shake and strain. Garnish with lime.","ingredients":[{"name":"Vodka","amount":"1 oz"},{"name":"Triple Sec","amount":"1 oz"},{"name":"Lime Juice","amount":"1 oz"}]},{"_id":"58a14361dd784e530155c9cb","name":"Black Russian","description":"Not PC, but oh well","preperation":"Pour into a glass with ice and stir.","ingredients":[{"name":"Vodka","amount":"2 oz"},{"name":"Coffee Liqueur","amount":"1 oz"}]},{"_id":"58a14449dd784e530155c9cc","name":"Manhattan","description":"A beautiful amber delght","preperation":"Stirred and strained. Garnished with a cherry.","ingredients":[{"name":"Whiskey","amount":"2 oz"},{"name":"Sweet Vermouth","amount":"1 oz"},{"name":"Bitters","amount":"1 Dash"}]},{"_id":"58a144f5dd784e530155c9cd","name":"White Lady","description":"Something to do with books","preperation":"Shake and strain.","ingredients":[{"name":"Gin","amount":"1 1/3 oz"},{"name":"Triple Sec","amount":"1 oz"},{"name":"Lemon Juice","amount":"2/3 oz"}]},{"_id":"58a145c1dd784e530155c9ce","name":"Cosmopolitan","description":"...or 'cosmo' for short.","preperation":"Shake and (double) strain. Garnish with lime wheel.","ingredients":[{"name":"Vodka","amount":"1 1/3 oz"},{"name":"Triple Sec","amount":"1/2 oz"},{"name":"Lime Juice","amount":"1/2 oz"},{"name":"Cranberry Juice","amount":"1 oz"}]},{"_id":"58a1474add784e530155c9cf","name":"Long Island Iced Tea","description":"The worst idea.","preperation":"Serve with ice and a straw.","ingredients":[{"name":"Tequila","amount":"1/2 oz"},{"name":"Vodka","amount":"1/2 oz"},{"name":"Gin","amount":"1/2 oz"},{"name":"Rum","amount":"1/2 oz"},{"name":"Lemon Juice","amount":"1 oz"},{"name":"Simple Syrup","amount":"1 oz"},{"name":"Triple Sec","amount":"1/2 oz"}]}]
+[  
+   {  
+      "_id":"58a0cb6de507dd155b586ce6",
+      "name":"Jenna",
+      "description":"Mostly Whiskey",
+      "preperation":"Pour it in a glass",
+      "ingredients":[  
+         {  
+            "name":"Whiskey",
+            "amount":"2 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a0da28e507dd155b586ce8",
+      "name":"Negroni",
+      "description":"Harsh. Classic.",
+      "preperation":"Mix in equal part. Garnish with orange peel.",
+      "ingredients":[  
+         {  
+            "name":"Gin",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Sweet Vermouth",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Campari",
+            "amount":"1 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a0dd29e507dd155b586ce9",
+      "name":"Martini",
+      "description":"Strong and classy",
+      "preperation":"Stir with ice in mixing glass. Strain into cocktail glass. Serve with olive",
+      "ingredients":[  
+         {  
+            "name":"Gin",
+            "amount":"2 oz"
+         },
+         {  
+            "name":"Dry Vermouth",
+            "amount":"1/3 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a0dd81e507dd155b586cea",
+      "name":"Boulevardier",
+      "description":"The masochists Negroni",
+      "preperation":"Mix in equal part. Garnish with orange peel.",
+      "ingredients":[  
+         {  
+            "name":"Whiskey",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Sweet Vermouth",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Campari",
+            "amount":"1 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a0dea8e507dd155b586ceb",
+      "name":"Screwdriver",
+      "description":"For breakfasts and beaches",
+      "preperation":"Lots of ice and stir well",
+      "ingredients":[  
+         {  
+            "name":"Vodka",
+            "amount":"2 oz"
+         },
+         {  
+            "name":"Orange Juice",
+            "amount":"3 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a0e6ffe507dd155b586cec",
+      "name":"Daiquiri",
+      "description":"For hot days",
+      "preperation":"Shake hard and strain",
+      "ingredients":[  
+         {  
+            "name":"Rum",
+            "amount":"3 oz"
+         },
+         {  
+            "name":"Lime Juice",
+            "amount":"2 oz"
+         },
+         {  
+            "name":"Simple Syrup",
+            "amount":"1 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a0e79de507dd155b586ced",
+      "name":"Margarita",
+      "description":"For forgettable nights",
+      "preperation":"No straining, and salt the glass",
+      "ingredients":[  
+         {  
+            "name":"Tequila",
+            "amount":"2 oz"
+         },
+         {  
+            "name":"Triple Sec",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Lime Juice",
+            "amount":"1 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a142d7dd784e530155c9ca",
+      "name":"Kamikaze",
+      "description":"Japanese word for 'Divine Wind'",
+      "preperation":"Shake and strain. Garnish with lime.",
+      "ingredients":[  
+         {  
+            "name":"Vodka",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Triple Sec",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Lime Juice",
+            "amount":"1 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a14361dd784e530155c9cb",
+      "name":"Black Russian",
+      "description":"Not PC, but oh well",
+      "preperation":"Pour into a glass with ice and stir.",
+      "ingredients":[  
+         {  
+            "name":"Vodka",
+            "amount":"2 oz"
+         },
+         {  
+            "name":"Coffee Liqueur",
+            "amount":"1 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a14449dd784e530155c9cc",
+      "name":"Manhattan",
+      "description":"A beautiful amber delght",
+      "preperation":"Stirred and strained. Garnished with a cherry.",
+      "ingredients":[  
+         {  
+            "name":"Whiskey",
+            "amount":"2 oz"
+         },
+         {  
+            "name":"Sweet Vermouth",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Bitters",
+            "amount":"1 Dash"
+         }
+      ]
+   },
+   {  
+      "_id":"58a144f5dd784e530155c9cd",
+      "name":"White Lady",
+      "description":"Something to do with books",
+      "preperation":"Shake and strain.",
+      "ingredients":[  
+         {  
+            "name":"Gin",
+            "amount":"1 1/3 oz"
+         },
+         {  
+            "name":"Triple Sec",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Lemon Juice",
+            "amount":"2/3 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a145c1dd784e530155c9ce",
+      "name":"Cosmopolitan",
+      "description":"...or 'cosmo' for short.",
+      "preperation":"Shake and (double) strain. Garnish with lime wheel.",
+      "ingredients":[  
+         {  
+            "name":"Vodka",
+            "amount":"1 1/3 oz"
+         },
+         {  
+            "name":"Triple Sec",
+            "amount":"1/2 oz"
+         },
+         {  
+            "name":"Lime Juice",
+            "amount":"1/2 oz"
+         },
+         {  
+            "name":"Cranberry Juice",
+            "amount":"1 oz"
+         }
+      ]
+   },
+   {  
+      "_id":"58a1474add784e530155c9cf",
+      "name":"Long Island Iced Tea",
+      "description":"The worst idea.",
+      "preperation":"Serve with ice and a straw.",
+      "ingredients":[  
+         {  
+            "name":"Tequila",
+            "amount":"1/2 oz"
+         },
+         {  
+            "name":"Vodka",
+            "amount":"1/2 oz"
+         },
+         {  
+            "name":"Gin",
+            "amount":"1/2 oz"
+         },
+         {  
+            "name":"Rum",
+            "amount":"1/2 oz"
+         },
+         {  
+            "name":"Lemon Juice",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Simple Syrup",
+            "amount":"1 oz"
+         },
+         {  
+            "name":"Triple Sec",
+            "amount":"1/2 oz"
+         }
+      ]
+   }
+]

@@ -60,6 +60,7 @@ export default class cocktail extends Component {
         <View style={styles.container}>
           <Button title="Back" onPress={()=>{this.setState({onHandShown:false})}} />
           <ListView
+            initialListSize = {30}
             contentContainerStyle={styles.ingredientList}
             dataSource={this.state.onHandSource}
             renderRow={(rowData) => {
@@ -86,6 +87,7 @@ export default class cocktail extends Component {
         <View style={styles.container}>
           <Button title="Show On Hand" onPress={() => {this.setState({onHandShown: true})}} />
           <ListView
+            initialListSize = {30}
             contentContainerStyle={styles.list}
             dataSource={this.state.cocktailSource}
             renderRow={(rowData) => 
@@ -216,8 +218,8 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     margin: 2,
     padding: 5,
-    width: 110,
-    height: 100
+    width: 90,
+    height: 90
   },
   missing: {
     backgroundColor: 'red',
@@ -225,8 +227,8 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     margin: 2,
     padding: 5,
-    width: 110,
-    height: 100
+    width: 90,
+    height: 90
   },
   text : {
     justifyContent: 'center',
@@ -275,9 +277,9 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.darkBlue,
     borderRadius: 5,
     overflow: 'hidden',
-    margin: 2,
+    margin: 1,
     padding: 5,
-    width: 110,
+    width: 115,
     height: 100
   }
 });
