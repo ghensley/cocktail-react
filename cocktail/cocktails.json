@@ -1,6 +1,5 @@
 [  
    {  
-      "_id":"58a0cb6de507dd155b586ce6",
       "name":"Jenna",
       "description":"Mostly Whiskey",
       "preperation":"Pour it in a glass",
@@ -12,7 +11,6 @@
       ]
    },
    {  
-      "_id":"58a0da28e507dd155b586ce8",
       "name":"Negroni",
       "description":"Harsh. Classic.",
       "preperation":"Mix in equal part. Garnish with orange peel.",
