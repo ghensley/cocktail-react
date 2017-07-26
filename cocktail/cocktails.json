@@ -64,7 +64,6 @@
       ]
    },
    {  
-      "_id":"58a0dea8e507dd155b586ceb",
       "name":"Screwdriver",
       "description":"For breakfasts and beaches",
       "preperation":"Lots of ice and stir well",
@@ -80,7 +79,6 @@
       ]
    },
    {  
-      "_id":"58a0e6ffe507dd155b586cec",
       "name":"Daiquiri",
       "description":"For hot days",
       "preperation":"Shake hard and strain",
@@ -120,7 +118,6 @@
       ]
    },
    {  
-      "_id":"58a142d7dd784e530155c9ca",
       "name":"Kamikaze",
       "description":"Japanese word for 'Divine Wind'",
       "preperation":"Shake and strain. Garnish with lime.",
@@ -140,7 +137,6 @@
       ]
    },
    {  
-      "_id":"58a14361dd784e530155c9cb",
       "name":"Black Russian",
       "description":"Not PC, but oh well",
       "preperation":"Pour into a glass with ice and stir.",
@@ -156,7 +152,6 @@
       ]
    },
    {  
-      "_id":"58a14449dd784e530155c9cc",
       "name":"Manhattan",
       "description":"A beautiful amber delght",
       "preperation":"Stirred and strained. Garnished with a cherry.",
@@ -176,7 +171,6 @@
       ]
    },
    {  
-      "_id":"58a144f5dd784e530155c9cd",
       "name":"White Lady",
       "description":"Something to do with books",
       "preperation":"Shake and strain.",
@@ -196,7 +190,6 @@
       ]
    },
    {  
-      "_id":"58a145c1dd784e530155c9ce",
       "name":"Cosmopolitan",
       "description":"...or 'cosmo' for short.",
       "preperation":"Shake and (double) strain. Garnish with lime wheel.",
@@ -219,8 +212,49 @@
          }
       ]
    },
+   {
+      "name":"Bourbon Sidecar",
+      "description": "31% alcohol",
+      "preperation": "Shake well, strain into a chilled cocktail glass",
+      "ingredients":[
+         {
+            "name":"Whiskey",
+            "amount":"1 oz"
+         },
+         {
+            "name":"Triple Sec",
+            "amount":"1 oz",
+         },
+         {
+            "name":"Lemon Juice",
+            "amount":"1 oz"
+         }
+      ]
+   },
+   {
+      "name":"Commodore No. 2",
+      "description": "Don't ask about the first commodore.",
+      "preperation": "Shake well, strain into a chilled cocktail glass",
+      "ingredients":[
+         {
+            "name":"Whiskey",
+            "amount":"1 oz"
+         },
+         {
+            "name":"Creme De Cacao",
+            "amount":"1 oz",
+         },
+         {
+            "name":"Lemon Juice",
+            "amount":"1/2 oz"
+         },
+         {
+            "name":"Grenadine",
+            "amount":"1 Dash"
+         }
+      ]
+   },
    {  
-      "_id":"58a1474add784e530155c9cf",
       "name":"Long Island Iced Tea",
       "description":"The worst idea.",
       "preperation":"Serve with ice and a straw.",
