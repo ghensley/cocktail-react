@@ -16,5 +16,7 @@
 	{"name":"Rum","have":true,"popularity":80},
 	{"name":"Simple Syrup","have":true,"popularity":70},
 	{"name":"Bitters","have":true,"popularity":70},
-	{"name":"Vodka","have":true,"popularity":90}
+	{"name":"Vodka","have":true,"popularity":90},
+	{"name":"Creme De Cacao","have":true,"popularity":40},
+	{"name":"Maraschino Liqueur","have":true,"popularity":35}
 ]
