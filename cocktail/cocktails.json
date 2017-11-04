@@ -215,7 +215,7 @@
    {
       "name":"Bourbon Sidecar",
       "description": "31% alcohol",
-      "preperation": "Shake well, strain into a chilled cocktail glass",
+      "preparation": "Shake well, strain into a chilled cocktail glass",
       "ingredients":[
          {
             "name":"Whiskey",
@@ -233,8 +233,8 @@
    },
    {
       "name":"Commodore No. 2",
-      "description": "Don't ask about the first commodore.",
-      "preperation": "Shake well, strain into a chilled cocktail glass",
+      "description": "RIP Commodore No. 1",
+      "preparation": "Shake well, strain into a chilled cocktail glass",
       "ingredients":[
          {
             "name":"Whiskey",
