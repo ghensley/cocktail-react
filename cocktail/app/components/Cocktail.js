@@ -12,6 +12,7 @@ import {
   Modal,
   View,
   Button,
+  AsyncStorage
 } from 'react-native';
 
 export default class Cocktail extends Component {
@@ -33,6 +34,23 @@ export default class Cocktail extends Component {
     };
   }
 
+  componentDidMount() {
+    AsyncStorage.getItem('@Cocktail:onHand')
+    .then(ingredients => {
+      if (ingredients) {
+        const ds = new ListView.DataSource({
+          rowHasChanged: (r1, r2) => r1 !== r2,
+        });
+        this.setState({
+          ingredients: JSON.parse(ingredients),
+          onHandSource: ds.cloneWithRows(JSON.parse(ingredients))
+        });
+      }
+    }).catch (error => {
+      console.log("couldn't retrieve")
+    });
+  }
+
   canMake(cocktail) {
     for (var i = 0; i < cocktail.ingredients.length; i++) {
       for (var j = 0; j < this.state.ingredients.length; j++) {
@@ -44,12 +62,14 @@ export default class Cocktail extends Component {
         }
       }
     }
-    return true;
+    return true
   }
 
   toggleOnHand(ingredient) {
     var ingredients = this.state.ingredients;
-    var index = ingredients.indexOf(ingredient);
+    var index = ingredients.findIndex(x => x.name == ingredient.name);
+    console.log(ingredients[1].have)
+    console.log(index);
     if (ingredients[index].have === true) {
       ingredients[index].have = false;
     } else {
@@ -59,9 +79,10 @@ export default class Cocktail extends Component {
       rowHasChanged: (r1, r2) => r1 !== r2,
     });
     this.setState({
-      ingredients: ingredients,
+      ingredients,
       onHandSource: ds.cloneWithRows(ingredients),
-    });
+    })
+    AsyncStorage.setItem('@Cocktail:onHand', JSON.stringify(ingredients))
   }
 
   render() {
